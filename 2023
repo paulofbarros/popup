@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Popup de Páscoa</title>
+</head>
+<body>
+	<div class="popup">
+		<h1>Feliz Páscoa!</h1>
+	</div>
+
+	<script>
+		// Fechar o popup após 3 segundos
+		setTimeout(function() {
+			document.querySelector('.popup').style.display = 'none';
+		}, 3000);
+	</script>
+</body>
+</html>
